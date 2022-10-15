@@ -1,0 +1,5 @@
+  <h1>Following are the titles of blogs</h1>
+  
+  {{#each blogs}}
+    <li><a href="blogpost/{{this.slug}}">{{this.title}}</a></li>
+  {{/each}}
